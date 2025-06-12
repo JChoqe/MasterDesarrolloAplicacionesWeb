@@ -1,0 +1,63 @@
+/* Estilo utilizando únicamente la propiedad position */
+/* Estilo utilizando position, colores, padding, margin y tamaños */
+/* Las únicas que no puedes utilizar son las propiedades display. */
+/* No olvides todo lo aprendido en HTML y utiliza semántica correcta. */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(92, 151, 92);    
+    background-color: black;
+}
+
+header {
+    width: auto;
+    height: auto;
+    padding: 5px 0 5px 5px;
+    border-bottom: 1px dashed rgb(92, 151, 92); 
+}
+main {
+    overflow: hidden;
+    border-bottom: 1px dashed rgb(92, 151, 92);
+}
+.content {
+    width: auto;
+    height: auto;
+    border-top: 1px dashed rgb(92, 151, 92);
+    border-bottom: 1px dashed rgb(92, 151, 92);
+    margin-top: 20px;
+    padding: 25px 0 25px 10px;
+    text-align: left;
+}
+
+.sidebar {
+    width: 8%;
+    height: auto;
+    padding: 25px 0 25px 25px;
+    border: 1px dashed rgb(92, 151, 92); 
+    float : right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+section {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px dashed rgb(92, 151, 92);
+}
+
+footer {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-top: 1px dashed rgb(92, 151, 92);
+    padding: 10px;
+    margin-top: 200px;
+} 
+button {
+    background-color: white;
+    color: black;
+    padding: 2px 2px;
+}
